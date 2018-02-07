@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelUploader", "ExcelUploader.csproj", "{76DBE58E-49E1-4ED6-B066-0A2C94A20C36}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelContentXML", "http://localhost/ExcelContentXML/ExcelContentXML.csproj", "{DBED2505-7805-4B7D-B549-90278A23C7D1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{57A1649E-8A4E-4B32-A96A-C9C46F4927B2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{76DBE58E-49E1-4ED6-B066-0A2C94A20C36}.Debug.ActiveCfg = Debug|.NET
+		{76DBE58E-49E1-4ED6-B066-0A2C94A20C36}.Debug.Build.0 = Debug|.NET
+		{76DBE58E-49E1-4ED6-B066-0A2C94A20C36}.Release.ActiveCfg = Release|.NET
+		{76DBE58E-49E1-4ED6-B066-0A2C94A20C36}.Release.Build.0 = Release|.NET
+		{DBED2505-7805-4B7D-B549-90278A23C7D1}.Debug.ActiveCfg = Debug|.NET
+		{DBED2505-7805-4B7D-B549-90278A23C7D1}.Debug.Build.0 = Debug|.NET
+		{DBED2505-7805-4B7D-B549-90278A23C7D1}.Release.ActiveCfg = Release|.NET
+		{DBED2505-7805-4B7D-B549-90278A23C7D1}.Release.Build.0 = Release|.NET
+		{57A1649E-8A4E-4B32-A96A-C9C46F4927B2}.Debug.ActiveCfg = Debug|.NET
+		{57A1649E-8A4E-4B32-A96A-C9C46F4927B2}.Debug.Build.0 = Debug|.NET
+		{57A1649E-8A4E-4B32-A96A-C9C46F4927B2}.Release.ActiveCfg = Release|.NET
+		{57A1649E-8A4E-4B32-A96A-C9C46F4927B2}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
